@@ -1,7 +1,7 @@
 def roll_call_dwarves(array)
   array.each_with_index do |dwarf, index|
     position = index + 1 
-    puts ""
+    puts "#{position}. #{dwarf}"
   end 
 end
 

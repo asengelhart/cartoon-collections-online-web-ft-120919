@@ -19,6 +19,7 @@ def find_the_cheese(array)
   i = 0 
   while i < array.size do 
     return array[i] if cheese_types.include?(array[i])
+    i += 1 
   end 
   return nil
 end
